@@ -28,3 +28,5 @@ use the editor.
   own key and store it in Secrets.
 - **Secrets.** Lovable manages them. Do not put secret values in the repo.
 <!-- LOVABLE:END -->
+
+- Sales page copy, prices and checkout links live in src/components/landing/data.ts; keep sections in src/routes/index.tsx reading from it so offers change in one place.
